@@ -75,7 +75,8 @@ Click the blue Create button and complete the issue creation form with a realist
 
 Return to Queues > All open. The new issue appears as 1 work item.
 
-![03 Queue — SUP-1 visible, Waiting for Support, created 09/Apr/26](screenshots/03_queue_issue_created_annotated.png)
+<img width="1117" height="315" alt="03 Ticket after creation" src="https://github.com/user-attachments/assets/bc6eca8f-b305-447d-a3a8-a9671341c52b" />
+
 
 | Column | Value |
 |---|---|
@@ -90,64 +91,57 @@ Return to Queues > All open. The new issue appears as 1 work item.
 
 ---
 
-### Phase 4 — Update Issue Fields
+### Phase 4 - Update Issue Fields
 
-**Step 4.1 — Set Assignee and Priority**
+**Step 4.1 - Set Assignee and Priority**
 
 Click SUP-1 to open the full issue. Navigate to the Details panel and update the fields.
 
-![04 Issue details panel — Assignee, Request Type, Priority confirmed](screenshots/04_issue_details_fields_annotated.png)
+<img width="370" height="478" alt="04_issue_details_fields_annotated" src="https://github.com/user-attachments/assets/a5280524-c221-480f-b208-c66b8a71d960" />
 
-| Field | Value |
-|---|---|
-| Assignee | Nnamso Techie |
-| Request Type | Get IT help |
-| Priority | High |
 
 > **Highlighted:** Assignee (green) assigns ownership. Priority High (red) triggers the correct SLA target. Request Type (blue) confirms the customer portal form and SLA definition used.
 
 ---
 
-### Phase 5 — Add an Internal Investigation Note
+### Phase 5 - Add an Internal Investigation Note
 
-**Step 5.1 — Write the First Internal Note**
+**Step 5.1 - Write the First Internal Note**
 
 In the Activity section, click Add internal note. This comment is visible to agents only and never appears on the customer portal.
 
-![05 Internal note — yellow background, lock icon, agents only](screenshots/05_internal_note_added_annotated.png)
+<img width="696" height="279" alt="05 Add internal comment" src="https://github.com/user-attachments/assets/d0b72cb4-cbb9-4677-a9a8-6f49b154fc90" />
+
 
 Internal note content written:
 
 > Contacted user to confirm issue. User on floor 2, machine WIN11-JO-07. Wi-Fi adapter visible in Device Manager but cannot obtain IP address.
 
-> **Highlighted:** The yellow background and lock icon confirm this is an internal note. The content includes the machine name, floor number, and technical finding — detail that is appropriate for agents but not for the customer-visible communication channel.
+> **Highlighted:** The yellow background and lock icon confirm this is an internal note. 
 
 ---
 
-### Phase 6 — Change Status to In Progress
+### Phase 6 - Change Status to In Progress
 
-**Step 6.1 — Transition the Issue**
+**Step 6.1 - Transition the Issue**
 
 Click the status button at the top of the issue and select In Progress.
 
-![06 Status: In Progress — timestamps visible](screenshots/06_status_in_progress_annotated.png)
+<img width="423" height="493" alt="06 status showing in progress" src="https://github.com/user-attachments/assets/f45cbee7-243f-44e2-9b5e-dc41e8c1f27f" />
 
-| State | Before | After |
-|---|---|---|
-| Status badge | Waiting for Support | **In Progress** |
-| Updated timestamp | — | Updated 1 second ago |
 
-> **Highlighted:** In Progress tells the queue that ownership has been taken. It tells the SLA timer that active work is happening. It signals to the customer portal that their request is being investigated. A ticket left in Waiting for Support when work has started is providing false information to all three audiences simultaneously.
+> **Highlighted:** In Progress tells the queue that ownership has been taken. It tells the SLA timer that active work is happening. It also  signals to the customer portal that their request is being investigated. A ticket left in Waiting for Support when work has started is providing false information to all three audiences simultaneously.
 
 ---
 
-### Phase 7 — Add a Customer Reply and Compare Both Comment Types
+### Phase 7 - Add a Customer Reply and Compare Both Comment Types
 
-**Step 7.1 — Write the Customer Reply and Confirm the Difference**
+**Step 7.1 - Write the Customer Reply and Confirm the Difference**
 
 In the Activity section, click Reply to customer and write a professional response. After saving, both comment types are visible side by side.
 
-![07 Both comment types — white customer reply and yellow internal note](screenshots/07_both_comment_types_annotated.png)
+<img width="695" height="395" alt="07 reply to customer" src="https://github.com/user-attachments/assets/53f4359a-f776-4fe2-a17d-7a2bc4a5a644" />
+
 
 | Type | Background | Visible To | Content |
 |---|---|---|---|
@@ -168,8 +162,8 @@ In the Activity section, click Reply to customer and write a professional respon
 | Priority | High |
 | Assignee | Nnamso Techie |
 | Status | In Progress |
-| Internal note | Confirmed — yellow background |
-| Customer reply | Confirmed — white background |
+| Internal note | Confirmed - yellow background |
+| Customer reply | Confirmed - white background |
 | Created | 09 April 2026 |
 
 ---
@@ -184,15 +178,15 @@ See `TICKET-SUP1-wifi-connectivity.md` in this folder.
 
 | Check | Result |
 |---|---|
-| JSM workspace created — nnamsotechie.atlassian.net | Pass |
-| Agent view explored — queue navigation confirmed | Pass |
+| JSM workspace created - nnamsotechie.atlassian.net | Pass |
+| Agent view explored - queue navigation confirmed | Pass |
 | Issue created: Laptop cannot connect to company Wi-Fi | Pass |
 | Issue key SUP-1 confirmed in queue | Pass |
 | Priority set to High | Pass |
 | Assignee set to Nnamso Techie | Pass |
-| Internal note added — yellow background confirmed | Pass |
+| Internal note added - yellow background confirmed | Pass |
 | Status changed to In Progress | Pass |
-| Customer reply added — white background confirmed | Pass |
+| Customer reply added - white background confirmed | Pass |
 | Both comment types visible in Activity section | Pass |
 
 ---
@@ -224,8 +218,8 @@ The ability to navigate JSM confidently is often the first skill evaluated in a 
 | Symptom | Likely Cause | Resolution |
 |---|---|---|
 | Issue not appearing in queue after creation | Status filter excluding the new issue | Set Status filter to All or Waiting for Support |
-| Internal note visible to customer | Reply to customer used instead of Add internal note | Delete and re-add using Add internal note — confirm yellow background before saving |
-| Cannot change Assignee | Insufficient permissions or no agent licences | Check Project Settings > Members — confirm Service Desk Agent role |
+| Internal note visible to customer | Reply to customer used instead of Add internal note | Delete and re-add using Add internal note - confirm yellow background before saving |
+| Cannot change Assignee | Insufficient permissions or no agent licences | Check Project Settings > Members - confirm Service Desk Agent role |
 | Status button not showing In Progress | Workflow does not include In Progress transition | Check Project Settings > Workflows |
 | SLA timer not visible | SLA not configured for this request type | Check Project Settings > SLAs |
 | Priority field not visible | Priority not enabled for this project | Check Project Settings > Fields |
