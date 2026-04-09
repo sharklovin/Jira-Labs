@@ -97,7 +97,8 @@ Return to Queues > All open. The new issue appears as 1 work item.
 
 Click SUP-1 to open the full issue. Navigate to the Details panel and update the fields.
 
-<img width="370" height="478" alt="04_issue_details_fields_annotated" src="https://github.com/user-attachments/assets/a5280524-c221-480f-b208-c66b8a71d960" />
+<img width="370" height="478" alt="04 Open Ticket and Update Fields" src="https://github.com/user-attachments/assets/015f0959-ff06-43df-aaa1-ed0ecef06b8a" />
+
 
 
 > **Highlighted:** Assignee (green) assigns ownership. Priority High (red) triggers the correct SLA target. Request Type (blue) confirms the customer portal form and SLA definition used.
