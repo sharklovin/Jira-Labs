@@ -1,4 +1,4 @@
-<img width="997" height="539" alt="07 waiting for customer sla paused" src="https://github.com/user-attachments/assets/f83c9662-3dc6-444c-911c-f6262d2e1db5" /><img width="1115" height="588" alt="06 p3 issue scheduled " src="https://github.com/user-attachments/assets/08586336-4c0e-4e8b-8983-beecf3ed35e6" /># Manage Queues, Priorities, and SLA Targets in Jira
+# Manage Queues, Priorities, and SLA Targets in Jira
 
 > **Author:** Nnamso Mkpong
 >
