@@ -1,4 +1,4 @@
-# Manage Queues, Priorities, and SLA Targets in Jira
+<img width="997" height="539" alt="07 waiting for customer sla paused" src="https://github.com/user-attachments/assets/f83c9662-3dc6-444c-911c-f6262d2e1db5" /><img width="1115" height="588" alt="06 p3 issue scheduled " src="https://github.com/user-attachments/assets/08586336-4c0e-4e8b-8983-beecf3ed35e6" /># Manage Queues, Priorities, and SLA Targets in Jira
 
 > **Author:** Nnamso Mkpong
 >
@@ -92,95 +92,89 @@ SLA targets confirmed:
 
 ---
 
-### Phase 4 — Sort the Queue by SLA Deadline
+### Phase 4 - Sort the Queue by SLA Deadline
 
-**Step 4.1 — Sort Time to Resolution Ascending to Identify Highest Risk**
+**Step 4.1 - Sort Time to Resolution Ascending to Identify Highest Risk**
 
 Return to the Unassigned service requests queue. Click the Time to resolution column header to sort ascending. The issue closest to its SLA deadline moves to the top.
 
-![04 Queue sorted by SLA time to resolution ascending — SUP-7 at the top](screenshots/04_queue_sorted_by_sla_annotated.png)
+<img width="1128" height="415" alt="04 timer showing but not dates" src="https://github.com/user-attachments/assets/6f8e0339-bf1c-4b7b-9c78-1b3e3415d13b" />
 
-> **Highlighted:** The Time to resolution column is sorted ascending (arrow indicator visible). SUP-7 (User locked out of laptop) is now at the top with an April 16 deadline — the earliest of all five issues. This is the correct triage method: sorting by SLA rather than by creation time or issue key ensures the most at-risk ticket is always visible at the top of the working list regardless of when it arrived.
 
-> Sorting by SLA ascending is the single most important queue management habit a new analyst can build. A queue sorted by creation date will always show the oldest tickets first — which are often already actioned. A queue sorted by SLA shows the tickets that are most at risk of breach today.
+> **Highlighted:** The Time to resolution column is sorted ascending (arrow indicator visible). SUP-7 (User locked out of laptop) is now at the top with an April 16 deadline which is the earliest of all five issues. This is the correct triage method: sorting by SLA rather than by creation time or issue key ensures the most at-risk ticket is always visible at the top of the working list regardless of when it arrived.
+
+> Sorting by SLA ascending is the single most important queue management habit a new analyst can build. A queue sorted by creation date will always show the oldest tickets first which are often already actioned. A queue sorted by SLA shows the tickets that are most at risk of breach today.
 
 ---
 
-### Phase 5 — Action the Highest Priority Issue (SUP-7)
+### Phase 5 - Action the Highest Priority Issue (SUP-7)
 
-**Step 5.1 — Open SUP-7 and Change Status to In Progress**
+**Step 5.1 - Open SUP-7 and Change Status to In Progress**
 
 Open SUP-7 (User locked out of laptop — Priority: Highest). Change the status to In Progress. Add both a customer reply and an internal triage note.
 
-![05 SUP-7 In Progress — SLA panel, Priority Highest, internal note and customer reply](screenshots/05_p1_issue_in_progress_annotated.png)
+<img width="1099" height="580" alt="05 issue in progress" src="https://github.com/user-attachments/assets/0633b6bc-a786-4acb-976f-0c854eb2c204" />
+
 
 Actions taken on SUP-7:
 
 | Action | Detail |
 |---|---|
 | Status | Changed to **In Progress** |
-| Priority | Highest — confirmed correct |
+| Priority | Highest (confirmed correct) |
 | Assignee | Nnamso Mkpong |
 | SLA: Time to first response | Within 4h |
 | SLA: Time to resolution | Within 24h (Apr 16 09:09 AM) |
 | Customer reply | We are investigating your issue urgently. Updates will follow shortly. |
 | Internal note | User completely blocked, no workaround. SLA target: 24 hours. Actioning immediately. |
 
-> **Highlighted:** The In Progress status badge is confirmed (green, top right). The SLA panel shows two active timers: Time to first response (within 4h) and Time to resolution (within 24h — Apr 16 09:09 AM). Priority is set to Highest. The internal note (yellow background) records the triage decision: user is completely blocked with no workaround — this justifies Highest priority and immediate action. The customer reply (white, above) confirms investigation has begun.
+> **Highlighted:** The In Progress status badge is confirmed (green on top right). The SLA panel shows two active timers: Time to first response (within 4h) and Time to resolution (within 24h on Apr 16, Time 09:09 AM). Priority is set to Highest. The internal note (yellow background) records the triage decision: user is completely blocked with no workaround — this justifies Highest priority and immediate action. The customer reply (white, above) confirms investigation has begun.
 
 ---
 
-### Phase 6 — Triage the Medium Priority Issue (SUP-9)
+### Phase 6 - Triage the Medium Priority Issue (SUP-9)
 
-**Step 6.1 — Open SUP-9 and Record Triage Decision**
+**Step 6.1 - Open SUP-9 and Record Triage Decision**
 
-Open SUP-9 (Printer offline — Priority: Medium). The user has a workaround (printing to PDF and emailing). Add an internal triage note and schedule for later in the afternoon.
+Open SUP-9 (Printer offline with Priority: Medium). The user has a workaround (printing to PDF and emailing). Add an internal triage note and schedule for later in the afternoon.
 
-![06 SUP-9 Waiting for Support — Medium priority, workaround available, scheduled PM](screenshots/06_p3_issue_scheduled_annotated.png)
+<img width="1115" height="588" alt="06 p3 issue scheduled " src="https://github.com/user-attachments/assets/e56f70bb-849f-4eb3-9b85-c12dc066e00e" />
+
 
 Actions taken on SUP-9:
 
 | Action | Detail |
 |---|---|
 | Status | Remains Waiting for support |
-| Priority | Medium — confirmed correct |
+| Priority | Medium  (confirmed correct) |
 | SLA: Time to first response | Tomorrow 09:11 AM (within 8h) |
 | SLA: Time to resolution | Apr 17 01:11 PM (within 36h) |
 | Internal note | User has a workaround available. SLA target: 24 hours. Scheduled for this afternoon. |
 
-> **Highlighted:** The status remains Waiting for support — no change needed yet because the SLA is not at risk and the user has a workaround. The SLA panel confirms first response is due tomorrow at 09:11 AM and resolution by Apr 17 01:11 PM — both within target. The internal note (yellow) records the scheduling decision: workaround available, so this can wait until afternoon without breaching the SLA.
+> **Highlighted:** The status remains Waiting for support. No change needed yet because the SLA is not at risk and the user has a workaround. The SLA panel confirms first response is due tomorrow at 09:11 AM and resolution by Apr 17 01:11 PM  both within target. The internal note records the scheduling decision: workaround available, so this can wait until afternoon without breaching the SLA.
 
 ---
 
-### Phase 7 — Place SUP-10 On Hold (Waiting for Customer)
+### Phase 7 - Place SUP-10 On Hold (Waiting for Customer)
 
-**Step 7.1 — Transition SUP-10 to Waiting for Customer**
+**Step 7.1 - Transition SUP-10 to Waiting for Customer**
 
-Open SUP-10 (Software installation request — Priority: Medium). Additional information is needed from the user before work can begin. Transition to Waiting for customer. Observe the SLA timer behaviour.
+Open SUP-10 (Software installation request with Priority: Medium). Additional information is needed from the user before work can begin. Transition to Waiting for customer. Observe the SLA timer behaviour.
 
-![07 SUP-10 Waiting for Customer — SLA paused, awaiting user information](screenshots/07_waiting_for_customer_sla_paused_annotated.png)
+<img width="997" height="539" alt="07 waiting for customer sla paused" src="https://github.com/user-attachments/assets/25ba01fa-c6e4-42af-b693-35133c848fa7" />
 
-Actions taken on SUP-10:
 
-| Action | Detail |
-|---|---|
-| Status | Changed to **Waiting for customer** |
-| Priority | Medium |
-| SLA: Time to first response | Tomorrow 01:11 PM (within 12h) |
-| SLA: Time to resolution | Apr 21 09:11 AM (within 48h) |
-| Internal note | Awaiting additional information from user before proceeding. |
+> **Highlighted:** The status badge shows Waiting for customer (blue). In Jira Service Management, the Waiting for customer state pauses the SLA clock. The resolution timer stops running while the issue is in this state and resumes only when the ticket transitions back to an active state. This is a critical feature for managing SLA compliance on tickets where the delay is attributable to the user rather than the support team.
 
-> **Highlighted:** The status badge shows Waiting for customer (blue). In Jira Service Management, the Waiting for customer state pauses the SLA clock — the resolution timer stops running while the issue is in this state and resumes only when the ticket transitions back to an active state. This is a critical feature for managing SLA compliance on tickets where the delay is attributable to the user rather than the support team.
-
-> The internal note records that the analyst is awaiting information before proceeding. This is the correct documentation for a ticket placed on hold — it makes the reason visible to any colleague who picks up the ticket and prevents it from being escalated unnecessarily.
+> The internal note records that the analyst is awaiting information before proceeding. This is the correct documentation for a ticket placed on hold as it makes the reason visible to any colleague who picks up the ticket and prevents it from being escalated unnecessarily.
 
 ---
 
-### Phase 8 — Resolve SUP-11 End to End
+### Phase 8 - Resolve SUP-11 End to End
 
-**Step 8.1 — Work SUP-11 to Resolved Status**
+**Step 8.1 - Work SUP-11 to Resolved Status**
 
-Open SUP-11 (Password reset request — Priority: Low). This issue is straightforward and can be resolved in one session. Add investigation notes, send a resolution reply to the customer, and change the status to Resolved.
+Open SUP-11 (Password reset request with Priority: Low). This issue is straightforward and can be resolved in one session. Add investigation notes, send a resolution reply to the customer, and change the status to Resolved.
 
 ![08 SUP-11 Resolved — both comment types, Done badge, SLA within target](screenshots/08_issue_resolved_end_to_end_annotated.png)
 
