@@ -1,15 +1,24 @@
-# Jira Ticket — SUP-7
+# Jira Ticket - SUP-7
 
 **Issue Key:** SUP-7
+
 **Project:** Support (SUP)
+
 **Summary:** User locked out of laptop
+
 **Priority:** Highest
+
 **Status:** In Progress
+
 **Assignee:** Nnamso Mkpong
+
 **Reporter:** Nnamso Mkpong
+
 **Created:** 13 April 2026
-**SLA — Time to first response:** Within 4h
-**SLA — Time to resolution:** Within 24h (Apr 16 09:09 AM)
+
+**SLA - Time to first response:** Within 4h
+
+**SLA - Time to resolution:** Within 24h (Apr 16 09:09 AM)
 
 ---
 
@@ -32,7 +41,7 @@
 
 ## Priority Justification
 
-Highest priority was assigned because the user is completely locked out of their laptop. There is no workaround available — the user cannot log in to Windows, cannot access any company applications, and cannot perform any work. This is the textbook definition of a Highest priority issue: complete user blockage with no alternative path.
+Highest priority was assigned because the user is completely locked out of their laptop. There is no workaround available as the user cannot log in to Windows, cannot access any company applications, and cannot perform any work. This is the textbook definition of a Highest priority issue: complete user blockage with no alternative path.
 
 SLA target of 24 business hours applies. Given the issue was created on 13 April at 09:09 AM, the resolution deadline is 16 April at 09:09 AM on the Sample 9-5 Calendar.
 
@@ -40,25 +49,25 @@ SLA target of 24 business hours applies. Given the issue was created on 13 April
 
 ## Timeline
 
-**13 April 2026 — 09:09 AM — Issue Created**
+**13 April 2026 - 09:09 AM - Issue Created**
 
 SUP-7 created in the Support project. Assigned Highest priority. Status: Waiting for Support. All five issues from the morning rush are now in the queue.
 
-**13 April 2026 — 08:00 (shift start) — Triage Session**
+**13 April 2026 - 08:00 (shift start) - Triage Session**
 
-Queue sorted by SLA time to resolution ascending. SUP-7 identified as the most urgent issue — earliest deadline of all five open tickets. Assigned to Nnamso Mkpong. Investigation begun.
+Queue sorted by SLA time to resolution ascending. SUP-7 identified as the most urgent issue and earliest deadline of all five open tickets. Assigned to Nnamso Mkpong. Investigation begun.
 
-**13 April 2026 — 08:05 — Status Changed to In Progress**
+**13 April 2026 - 08:05 - Status Changed to In Progress**
 
 Status transitioned from Waiting for Support to In Progress. SLA timer continues running — In Progress does not pause the clock.
 
-**13 April 2026 — 08:06 — Customer Reply Sent**
+**13 April 2026 - 08:06 - Customer Reply Sent**
 
 > We are investigating your issue urgently. Updates will follow shortly.
 
 First response sent within the 4-hour SLA target. Time from creation to first response: less than 1 business hour.
 
-**13 April 2026 — 08:06 — Internal Note Added**
+**13 April 2026 - 08:06 - Internal Note Added**
 
 > User completely blocked, no workaround. SLA target: 24 hours. Actioning immediately.
 
@@ -110,4 +119,5 @@ Expected closure content: root cause identified (AD lockout / BitLocker / other)
 
 **Documented by:**
 Nnamso Mkpong
-IT Support Portfolio — Jira Service Management Lab Series
+IT Support Portfolio 
+Jira Service Management Lab Series
