@@ -15,7 +15,7 @@ All five issues were in Waiting for Support status, unassigned, with SLA timers 
 
 | Key | Summary | Priority | SLA Deadline | Risk |
 |---|---|---|---|---|
-| SUP-7 | User locked out of laptop | Highest | Apr 16 09:09 AM | Critical — earliest deadline |
+| SUP-7 | User locked out of laptop | Highest | Apr 16 09:09 AM | Critical (earliest deadline) |
 | SUP-8 | Outlook not syncing | High | Apr 17 01:11 PM | Elevated |
 | SUP-9 | Printer offline | High | Apr 21 09:11 AM | Moderate |
 | SUP-10 | Software installation request | Medium | Apr 21 09:11 AM | Low |
