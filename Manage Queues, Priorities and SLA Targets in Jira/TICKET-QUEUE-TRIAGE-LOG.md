@@ -1,10 +1,15 @@
 # Morning Triage Session - Jira Queue Log
 
 **Project:** Support (SUP)
+
 **Date:** 13 April 2026
+
 **Analyst:** Nnamso Mkpong
+
 **Session Start:** 08:00
+
 **Session End:** 11:30
+
 **Total Issues:** 5 (SUP-7 through SUP-11)
 
 ---
