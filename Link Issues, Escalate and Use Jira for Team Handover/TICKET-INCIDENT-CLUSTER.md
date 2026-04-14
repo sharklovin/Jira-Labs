@@ -1,9 +1,13 @@
-# Incident Cluster Log — Floor 2 Wi-Fi Fault
+# Incident Cluster Log - Floor 2 Wi-Fi Fault
 
 **Problem Record:** SUP1-4
+
 **Incidents:** SUP1-1, SUP1-2, SUP1-3
+
 **Project:** Support-1 (SUP1)
+
 **Date:** 14 April 2026
+
 **Analyst:** Nnamso Mkpong
 
 ---
@@ -22,7 +26,7 @@ Three separate incident tickets arrived between 08:30 and 09:00 on 14 April 2026
 
 ---
 
-## SUP1-1 — Wi-Fi not working on WIN11-JO-07
+## SUP1-1 - Wi-Fi not working on WIN11-JO-07
 
 **Issue Key:** SUP1-1
 **Request Type:** Report a system problem
@@ -39,23 +43,23 @@ Three separate incident tickets arrived between 08:30 and 09:00 on 14 April 2026
 
 **Linked work items:**
 
-Is caused by SUP1-4 — Potential Wi-Fi infrastructure fault — floor 2 multiple users affected (Open)
+Is caused by SUP1-4 - Potential Wi-Fi infrastructure fault — floor 2 multiple users affected (Open)
 
 **First response sent:**
 
-Not yet sent — awaiting network team resolution before communicating to users. If the AP is restored today, users will receive a single communication confirming the issue is resolved rather than multiple interim updates.
+Not yet sent - awaiting network team resolution before communicating to users. If the AP is restored today, users will receive a single communication confirming the issue is resolved rather than multiple interim updates.
 
 **Triage note:**
 
 This ticket arrived first among the three. Initial assumption was an individual device fault. When SUP1-2 arrived minutes later with the same symptom from the same floor, the pattern was recognised and SUP1-4 was raised. SUP1-1 was then linked to SUP1-4 using is caused by.
 
-**Status at handover:** Open — awaiting resolution of Problem record SUP1-4.
+**Status at handover:** Open - awaiting resolution of Problem record SUP1-4.
 
 ---
 
 ---
 
-## SUP1-2 — Wi-Fi not working on WIN11-SA-03
+## SUP1-2 - Wi-Fi not working on WIN11-SA-03
 
 **Issue Key:** SUP1-2
 **Request Type:** Report a system problem
@@ -72,19 +76,19 @@ This ticket arrived first among the three. Initial assumption was an individual 
 
 **Linked work items:**
 
-Is caused by SUP1-4 — Potential Wi-Fi infrastructure fault — floor 2 multiple users affected (Open)
+Is caused by SUP1-4 - Potential Wi-Fi infrastructure fault - floor 2 multiple users affected (Open)
 
 **Triage note:**
 
 This ticket was the second to arrive. Its arrival confirmed the pattern. SUP1-2 shares the same symptom (cannot obtain IP address), location (floor 2), and approximate start time (08:30) as SUP1-1. At this point the Problem record SUP1-4 was raised immediately without waiting for further tickets.
 
-**Status at handover:** Open — awaiting resolution of Problem record SUP1-4.
+**Status at handover:** Open - awaiting resolution of Problem record SUP1-4.
 
 ---
 
 ---
 
-## SUP1-3 — Wi-Fi not working on WIN11-AD-09
+## SUP1-3 - Wi-Fi not working on WIN11-AD-09
 
 **Issue Key:** SUP1-3
 **Request Type:** Report a system problem
@@ -101,13 +105,13 @@ This ticket was the second to arrive. Its arrival confirmed the pattern. SUP1-2 
 
 **Linked work items:**
 
-Is caused by SUP1-4 — Potential Wi-Fi infrastructure fault — floor 2 multiple users affected (Open)
+Is caused by SUP1-4 - Potential Wi-Fi infrastructure fault - floor 2 multiple users affected (Open)
 
 **Triage note:**
 
 This ticket arrived third, further confirming the infrastructure fault hypothesis. Three separate devices on the same floor with the same symptom and the same start time is a definitive infrastructure pattern. All first-line investigation was consolidated into Problem record SUP1-4 rather than duplicated across all three tickets.
 
-**Status at handover:** Open — awaiting resolution of Problem record SUP1-4.
+**Status at handover:** Open - awaiting resolution of Problem record SUP1-4.
 
 ---
 
@@ -139,4 +143,5 @@ The total time saving from cluster management compared to individual investigati
 
 **Documented by:**
 Nnamso Mkpong
-IT Support Portfolio — Jira Service Management Lab Series
+IT Support Portfolio 
+Jira Service Management Lab Series
