@@ -268,7 +268,7 @@ In Jira Service Management specifically, the issue linking feature is one of the
 | Situation | Correct Action | Common Mistake |
 |---|---|---|
 | Two or more tickets share the same symptom and location | Raise a Problem record and link the incidents | Investigating each ticket independently |
-| Cannot find the Link work item button | Check the issue toolbar — look for the chain link icon or the three-dot menu | Trying to find it in the details panel |
+| Cannot find the Link work item button | Check the issue toolbar - look for the chain link icon or the three-dot menu | Trying to find it in the details panel |
 | Link type is unclear | Use is caused by from the incident pointing to the problem | Using relates to which is correct but less precise |
 | Problem record shows no linked incidents | Confirm the link was created from the incident side, not the problem side | Creating the link from the problem without the correct direction |
 | Network team has no context when escalated | Add a handover note before changing the assignee | Changing the assignee without a note |
