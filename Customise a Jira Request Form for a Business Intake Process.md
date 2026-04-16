@@ -88,8 +88,7 @@ Description used:
 <img width="1165" height="589" alt="01 Request type form editor" src="https://github.com/user-attachments/assets/114ea4e1-6394-404f-967f-524b65f20ed9" />
 
 
-> **Highlighted:** For this lab, fields were built manually to match the exact language used in real printer tickets. The right-hand panel create new custom field where you can manually build your fields.<img width="339" height="549" alt="02 Printer name field created" src="https://github.com/user-attachments/assets/0c3b0a03-6463-4f66-b122-c6a4587e62f2" />
-
+> **Highlighted:** For this lab, fields were built manually to match the exact language used in real printer tickets. The right-hand panel create new custom field where you can manually build your fields.
 
 ---
 
