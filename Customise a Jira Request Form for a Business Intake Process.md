@@ -1,4 +1,4 @@
-# Customise a Jira Request Form for a Business Intake Process
+<img width="870" height="595" alt="04 All fields configured" src="https://github.com/user-attachments/assets/7ddee75e-3abe-463c-a909-7f5b1fb31c18" /><img width="337" height="550" alt="03 printer name config" src="https://github.com/user-attachments/assets/bd0c6b9d-055c-42cf-9b92-b02ee0bb748c" /># Customise a Jira Request Form for a Business Intake Process
 
 > **Author:** Nnamso Mkpong
 >
@@ -85,9 +85,11 @@ Set the request type description to something specific. The description appears 
 Description used:
 > Report printer problems including paper jams, blank pages, offline status, or error messages
 
-<img width="829" height="574" alt="Form editor opened with default fields and Suggest fields button highlighted" src="screenshots/01_request_type_form_editor.png" />
+<img width="1165" height="589" alt="01 Request type form editor" src="https://github.com/user-attachments/assets/114ea4e1-6394-404f-967f-524b65f20ed9" />
 
-> **Highlighted:** The red box marks the Suggest fields button. This uses AI to recommend fields based on the request type name. For this lab, fields were built manually to match the exact language used in real printer tickets. The right-hand panel shows all available system fields that can be dragged onto the form. The drag and drop area in the middle is where dropped fields will land.
+
+> **Highlighted:** For this lab, fields were built manually to match the exact language used in real printer tickets. The right-hand panel create new custom field where you can manually build your fields.<img width="339" height="549" alt="02 Printer name field created" src="https://github.com/user-attachments/assets/0c3b0a03-6463-4f66-b122-c6a4587e62f2" />
+
 
 ---
 
@@ -103,7 +105,8 @@ Click Create new custom fields at the bottom of the right-hand panel. The Create
 | **Name** | Printer Name |
 | **Description** | Where is the printer located? |
 
-<img width="332" height="410" alt="Creating the Printer Name field with short text type and location prompt" src="screenshots/02_create_custom_field.png" />
+<img width="339" height="549" alt="02 create custom field" src="https://github.com/user-attachments/assets/c6e0596d-0752-434c-9413-8d30f57e50ba" />
+
 
 > The description beneath the field name is not a label. It is a prompt. "Where is the printer located?" tells the user to include the physical location alongside the printer model. That small addition means one field does the work of two without making the form longer.
 
@@ -113,7 +116,8 @@ Click Create new custom fields at the bottom of the right-hand panel. The Create
 
 After saving the field, Jira shows a dialog to add the new field to field configuration schemes. This step is not optional. If you skip it, the field will appear on the portal form but will not appear in the agent's work item view.
 
-<img width="332" height="446" alt="Adding Printer Name to all three field configuration schemes" src="screenshots/03_field_configuration_scheme.png" />
+<img width="337" height="550" alt="03 printer name config" src="https://github.com/user-attachments/assets/393ea5c6-b72e-4561-a24b-7c761f66c8ef" />
+
 
 > **Important:** The dialog warns that fields are no longer added to field configuration schemes by default. This changed in recent Jira Cloud versions. Select all relevant schemes before clicking confirm. In this lab, all three schemes were selected: System Default Field Configuration, Jira Service Management Field Configuration Scheme for Space SUP, and Jira Service Management Field Configuration Scheme for Space SUP1.
 
@@ -135,7 +139,8 @@ Repeat the field creation process for each remaining field. The full set of five
 
 All five fields were set to REQUIRED. The Summary field was kept at the bottom as the one-line ticket headline that appears in the queue.
 
-<img width="829" height="510" alt="All five fields added to the form, all marked as required" src="screenshots/04_all_fields_configured.png" />
+<img width="870" height="595" alt="04 All fields configured" src="https://github.com/user-attachments/assets/836bca6c-db18-4824-aa2c-4a7aac0e7363" />
+
 
 > **Highlighted:** The green box covers all five custom fields. Every one of them shows the REQUIRED badge. The field order was set deliberately: Printer Name and Floor first so the technician knows where to go, then Error Message so they know what to expect, then the two yes/no fields to establish what has already been ruled out, then Summary last as the headline. This order mirrors the order a technician thinks through a printer fault.
 
@@ -147,7 +152,9 @@ All five fields were set to REQUIRED. The Summary field was kept at the bottom a
 
 Click View in Portal from the form editor. This shows exactly what the customer sees when they raise a request.
 
-<img width="1280" height="605" alt="Customer-facing portal form showing all five fields as required" src="screenshots/05_customer_portal_view.png" />
+<img width="1132" height="625" alt="06 Test submission results" src="https://github.com/user-attachments/assets/3ee3e2d8-bbff-4623-983b-a1a63f7abc40" />
+<img width="1326" height="637" alt="05 Customer portal view " src="https://github.com/user-attachments/assets/6cb9ef27-109f-4e8f-b29e-bcb7ec9874c6" />
+
 
 Confirmed in the portal:
 - All five custom fields are visible
@@ -176,7 +183,8 @@ Does the printer appear online?:           No
 Summary:                                   HP LaserJet 2nd floor printing blank pages
 ```
 
-<img width="1127" height="575" alt="Submitted ticket shown in the customer portal confirmation view" src="screenshots/06_test_submission_result.png" />
+<img width="1132" height="625" alt="06 Test submission results" src="https://github.com/user-attachments/assets/51c16e4f-1d10-4611-9e73-58069bb40548" />
+
 
 > The portal confirmation screen shows the ticket as SUP1-6. All submitted values are visible on screen. Status is Waiting for Support. The user can see exactly what was recorded without opening anything else. This reduces re-submissions and duplicate tickets because the user can confirm their own data before walking away.
 
@@ -188,7 +196,8 @@ Summary:                                   HP LaserJet 2nd floor printing blank 
 
 Click View work item from the portal confirmation. This opens the ticket in the agent view - the same view a technician would see when the ticket lands in their queue.
 
-<img width="1099" height="574" alt="Agent view of SUP1-6 with structured fields and SLA timers highlighted" src="screenshots/07_agent_view_ticket.png" />
+<img width="1102" height="588" alt="07  agent view ticket" src="https://github.com/user-attachments/assets/acc90184-f6d4-4c60-a863-16f75fdadd03" />
+
 
 > **Blue highlight:** Every field value is visible in a clean structured layout. The technician reads down the left side and immediately knows the printer (HP LaserJet Floor 2), the room (Room 204), the fault (blank pages), what has been tried (restarted - yes), and the scope (not visible to other users - no).
 >
