@@ -152,7 +152,6 @@ All five fields were set to REQUIRED. The Summary field was kept at the bottom a
 Click View in Portal from the form editor. This shows exactly what the customer sees when they raise a request.
 
 <img width="1132" height="625" alt="06 Test submission results" src="https://github.com/user-attachments/assets/3ee3e2d8-bbff-4623-983b-a1a63f7abc40" />
-<img width="1326" height="637" alt="05 Customer portal view " src="https://github.com/user-attachments/assets/6cb9ef27-109f-4e8f-b29e-bcb7ec9874c6" />
 
 
 Confirmed in the portal:
