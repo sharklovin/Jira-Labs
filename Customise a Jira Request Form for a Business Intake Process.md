@@ -1,4 +1,4 @@
-<img width="870" height="595" alt="04 All fields configured" src="https://github.com/user-attachments/assets/7ddee75e-3abe-463c-a909-7f5b1fb31c18" /><img width="337" height="550" alt="03 printer name config" src="https://github.com/user-attachments/assets/bd0c6b9d-055c-42cf-9b92-b02ee0bb748c" /># Customise a Jira Request Form for a Business Intake Process
+# Customise a Jira Request Form for a Business Intake Process
 
 > **Author:** Nnamso Mkpong
 >
