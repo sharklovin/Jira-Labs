@@ -112,6 +112,7 @@ Sub-tasks created:
 <img width="682" height="596" alt="02onboarding  subtasks queue" src="https://github.com/user-attachments/assets/f5c3516c-b370-4bcd-92b3-8d9fb9bd2f28" />
 
 
+
 > **Highlighted:** The brown box covers all five sub-tasks. The progress bar at the top of the Subtasks section shows 0% Done. Every sub-task is Open and Unassigned at this stage. The order matters: AD account must exist before M365 can be configured, the security group requires the AD account, and the laptop and welcome email can only be sent once everything else is in place.
 
 ---
