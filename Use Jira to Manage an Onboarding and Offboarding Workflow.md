@@ -179,7 +179,8 @@ Completion note added to SUP1-9:
 
 Once all five sub-tasks have been completed and noted, the parent issue shows 100% Done in the progress bar. All five sub-tasks display the DONE badge.
 
-<img width="688" height="420" alt="Subtasks section of SUP1-8 showing 100% Done progress bar and all five sub-tasks with Done status" src="screenshots/07_all_subtasks_done.png" />
+<img width="702" height="291" alt="07 subtask completed" src="https://github.com/user-attachments/assets/3fca0e63-e941-44f4-9dd4-88607c4b0216" />
+
 
 > **Highlighted:** The green box at the top marks the progress bar now reading 100% Done. All five sub-tasks show DONE in the status column. All are assigned to Nnamso Mkpong. The names are struck through which is Jira's visual confirmation that these items are closed. At this point the parent issue can be transitioned to Done.
 
