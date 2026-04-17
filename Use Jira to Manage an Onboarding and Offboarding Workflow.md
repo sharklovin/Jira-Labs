@@ -243,8 +243,7 @@ Sub-tasks created:
 
 ### Phase 10 - Set Due Date to Today and Escalate Priority
 
-**Step 10.1 - Add Today as the Due Date and Mark All Sub-tasks as Highest Pr![Uploading 11 done.png…]()
-iority**
+**Step 10.1 - Add Today as the Due Date and Mark All Sub-tasks as Highest Priority**
 
 Set the due date on the parent issue to today, April 17. Change the priority on all five sub-tasks from Medium to Highest. This ensures the offboarding tasks surface at the top of any filtered view and no one treating them as routine can miss the urgency.
 
