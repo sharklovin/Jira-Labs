@@ -1,4 +1,4 @@
-# Use Jira Dashboards and Filters to Demonstrate Service Desk Performance
+<img width="376" height="437" alt="06 pie chat status configuration " src="https://github.com/user-attachments/assets/126af4b4-ddf9-4456-8ee0-cc5e1cf88278" /># Use Jira Dashboards and Filters to Demonstrate Service Desk Performance
 
 > **Author:** Nnamso Mkpong
 >
@@ -163,7 +163,8 @@ project = "Support-1" AND priority in (Highest, High) AND status != Done ORDER B
 
 Add the Filter Results gadget to the dashboard. Set the Saved Filter to Open High Priority Issues. Set Number of results to 10. Configure the columns to display Issue Type, Key, Summary, and Priority.
 
-<img width="410" height="600" alt="Filter Results gadget configuration showing Open High Priority Issues filter and four columns" src="screenshots/05_filter_results_gadget_config.png" />
+<img width="380" height="589" alt="05 filter results gadget config" src="https://github.com/user-attachments/assets/64562e9d-3779-4c40-b981-eaf43a1a9565" />
+
 
 > **Red highlight:** The Saved Filter field is set to Open High Priority Issues. This connects the gadget to the filter created in the previous step. The gadget will show whatever the filter returns at the time of page load or refresh.
 >
@@ -177,7 +178,8 @@ Add the Filter Results gadget to the dashboard. Set the Saved Filter to Open Hig
 
 Add a second Pie Chart gadget. Set the Project or Saved Filter to Support-1 and the Statistic Type to Status. This gives a different view from the priority chart - instead of showing urgency distribution, it shows workflow state distribution. A healthy queue has most issues in Done or In Progress with few stuck in Open.
 
-<img width="410" height="460" alt="Second Pie Chart gadget configuration showing Support-1 as source and Status as Statistic Type" src="screenshots/06_pie_chart_status_config.png" />
+<img width="376" height="437" alt="06 pie chat status configuration " src="https://github.com/user-attachments/assets/cee27a21-7099-4877-a340-0c5df283bdaa" />
+
 
 > **Red highlight:** Statistic Type is set to Status. This is the key difference from the first pie chart. The first pie chart slices by Priority (urgency). This one slices by Status (workflow state). Together they answer two different questions: how urgent is the work, and how far through the process is the work.
 
@@ -189,7 +191,8 @@ Add a second Pie Chart gadget. Set the Project or Saved Filter to Support-1 and 
 
 With all gadgets saved and the dashboard refreshed, the first view shows the Priority pie chart on the left and the Created vs Resolved chart on the right.
 
-<img width="1153" height="520" alt="Dashboard view showing Priority pie chart with 7 Medium and 5 Highest, and Created vs Resolved chart with spike on April 19" src="screenshots/07_dashboard_view_a.png" />
+<img width="1150" height="593" alt="07 dash board view A" src="https://github.com/user-attachments/assets/b348ae94-bf7d-4b03-9844-f29163f0adee" />
+
 
 > **Blue highlight:** The Priority pie chart shows 12 total issues. 7 are Medium priority (blue slice) and 5 are Highest priority (red slice). The split is roughly 58% Medium and 42% Highest. This is a relatively high proportion of Highest priority work for a week - a normal week might see 20% or less at that level.
 >
@@ -203,7 +206,8 @@ With all gadgets saved and the dashboard refreshed, the first view shows the Pri
 
 Scrolling down the dashboard reveals the Status pie chart on the left and the Filter Results table on the right.
 
-<img width="1153" height="620" alt="Dashboard view showing Status pie chart with all 12 issues Done, and Filter Results table listing all high priority issues" src="screenshots/08_dashboard_view_b.png" />
+<img width="1106" height="557" alt="08 dash board view B" src="https://github.com/user-attachments/assets/b0bd5563-6414-4c56-875f-a0813b1fcdab" />
+
 
 > **Green highlight:** The Status pie chart is entirely blue. All 12 of 12 issues in the project are in Done status. There are zero issues in Open, In Progress, or any other state. This is an exceptional result - a 100% resolution rate for the week. In a live service desk this would be a notable achievement worth calling out at the stand-up.
 >
@@ -222,7 +226,8 @@ JQL Query 1:
 project = "Support-1" AND status = Done AND resolved >= 2026-04-13
 ```
 
-<img width="1127" height="530" alt="JQL query showing project Support-1 status Done resolved after April 13 2026 returning 12 results" src="screenshots/09_jql_query_resolved_this_week.png" />
+<img width="1140" height="534" alt="09 jql query result this week 1 1" src="https://github.com/user-attachments/assets/a282ab9b-4015-439b-99f3-d114ec3d663f" />
+
 
 > **Red highlight:** The JQL bar shows the complete query with the resolved date filter. The `resolved >= 2026-04-13` clause filters to issues that were moved to Done on or after April 13 - the start of the current week. This is the clause that makes this a weekly query rather than an all-time query.
 >
@@ -249,7 +254,8 @@ JQL Query 2:
 project = "Support-1" AND status = Done
 ```
 
-<img width="1127" height="530" alt="JQL query showing project Support-1 and status Done returning 12 of 12 results total" src="screenshots/10_jql_query_all_done.png" />
+<img width="1148" height="566" alt="10 jql query all done2" src="https://github.com/user-attachments/assets/5bbd8925-8382-40bc-8b4f-ef88e06f94e6" />
+
 
 > **Red highlight:** The JQL bar shows the simpler query - project and status only, no date filter. This returns every Done issue in Support-1 regardless of when it was resolved.
 >
