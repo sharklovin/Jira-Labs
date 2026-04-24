@@ -1,11 +1,11 @@
- # Simulate a Major Incident Response Using Jira
+# Simulate a Major Incident Response Using Jira
 
 **Platform:** Jira Service Management
 **Priority:** Critical
 **Lab Type:** Flagship Portfolio Piece
 **Author:** Nnamso Mkpong
 **Domain:** IT Service Management | Major Incident Coordination
-**Environment:** Jira Service Management — Cloud | Project: Support-1
+**Environment:** Jira Service Management - Cloud | Project: Support-1
 **Completed:** April 2026
 
 ---
@@ -28,7 +28,7 @@ At 09:15 on a Tuesday morning, the company email service went down for all 300 u
 
 | Component | Detail |
 |---|---|
-| Platform | Jira Service Management — Cloud |
+| Platform | Jira Service Management - Cloud |
 | Project | Support-1 |
 | Issue Key | SUP1-26 (Incident) + PIR issue |
 | Incident Coordinator | Nnamso Mkpong |
@@ -39,26 +39,47 @@ At 09:15 on a Tuesday morning, the company email service went down for all 300 u
 
 ---
 
-## Diagnostic Stack
+# Simulate a Major Incident Response Using Jira
 
-```
-LAYER 1 — Service Validation
-  └── Microsoft 365 status page checked → No outage shown
-  └── Exchange Online admin centre → Service reported healthy
-  └── Conclusion: fault is tenant-side, not Microsoft infrastructure
+**Platform:** Jira Service Management
+**Priority:** Critical
+**Lab Type:** Flagship Portfolio Piece
+**Author:** Nnamso Mkpong
+**Domain:** IT Service Management | Major Incident Coordination
+**Environment:** Jira Service Management - Cloud | Project: Support-1
+**Completed:** April 2026
 
-LAYER 2 — Network and DNS Investigation
-  └── MX records verified → Intact
-  └── DNS resolution tested → Healthy
-  └── DHCP and routing ruled out
-  └── Conclusion: not a DNS or network layer fault
+---
 
-LAYER 3 — Identity and Access Investigation
-  └── Azure AD sign-in logs reviewed → Bulk failures at 09:10
-  └── Conditional access policies audited → Policy change at 09:10
-  └── Policy change blocked Exchange Online globally
-  └── Root cause confirmed: misconfigured conditional access policy
-```
+## Objective
+
+Simulate a P1 major incident in Jira Service Management, coordinate the response across multiple teams using issue links and comments, document each phase of the incident lifecycle, and produce a post-incident review summary.
+
+---
+
+## Business Scenario
+
+> **Ticket Reference:** SUP1-26 | **Severity:** P1 Critical | **Date:** Tuesday, 23 April 2026 | **Time:** 09:15
+
+At 09:15 on a Tuesday morning, the company email service went down for all 300 users. No one could send or receive email. The Microsoft 365 status page showed no outage, meaning the fault was internal. The service desk phone lines lit up immediately. As the major incident coordinator, the responsibility fell to manage the Jira ticket from first call through to a post-incident review, coordinate between the infrastructure team and Microsoft escalation team, keep all 300 affected users informed throughout, and produce a formal post-incident review within 24 hours. Total downtime: 45 minutes.
+
+---
+
+## Environment
+
+| Component | Detail |
+|---|---|
+| Platform | Jira Service Management - Cloud |
+| Project | Support-1 |
+| Issue Key | SUP1-26 (Incident) + PIR issue |
+| Incident Coordinator | Nnamso Mkpong |
+| Infrastructure Lead | Maria |
+| Microsoft Escalation | Support ticket raised |
+| Users Affected | 300 |
+| Downtime | 45 minutes (09:15 to 10:00) |
+
+---
+
 
 ---
 
@@ -67,10 +88,10 @@ LAYER 3 — Identity and Access Investigation
 | Time | Event | Action |
 |---|---|---|
 | 09:10 | Conditional access policy applied by admin account | Change applied without staged rollout |
-| 09:15 | Incident detected — first user calls received | SUP1-26 raised, P1 Critical, response team assembled |
+| 09:15 | Incident detected - first user calls received | SUP1-26 raised, P1 Critical, response team assembled |
 | 09:20 | Initial sitrep posted as internal note | Microsoft 365 status checked, team assembled |
 | 09:22 | First customer communication sent | All users notified: investigating, update in 30 minutes |
-| 09:30 | DNS and MX records ruled out | Timeline comment added — Azure AD suspected |
+| 09:30 | DNS and MX records ruled out | Timeline comment added - Azure AD suspected |
 | 09:45 | Root cause identified in Azure AD logs | Conditional access policy change confirmed at 09:10 |
 | 09:58 | Policy reverted by infrastructure team | Service restoration initiated |
 | 10:00 | Email service restored | User confirmation gathered |
@@ -86,7 +107,7 @@ LAYER 3 — Identity and Access Investigation
 
 The moment volume of calls confirmed a wide impact event, a new issue was created in Jira Service Management with Priority: Critical and the title making the scope immediately clear to anyone who opened the queue.
 
-**Issue:** `SUP1-26 — MAJOR INCIDENT — Email Service Down — All 300 Users Affected — 09:15`
+**Issue:** `SUP1-26 - MAJOR INCIDENT - Email Service Down - All 300 Users Affected - 09:15`
 
 ![P1 Incident Created in Queue](screenshots/01_p1_incident_created_annotated.png)
 
@@ -122,7 +143,7 @@ A customer-visible reply was posted immediately so that all 300 affected users k
 
 ---
 
-### Phase 4: Timeline Comment at 09:30 — DNS Ruled Out
+### Phase 4: Timeline Comment at 09:30 - DNS Ruled Out
 
 At 09:30, the first investigative update was posted as an internal note. DNS and MX records had been checked and were intact. The Exchange Online admin centre showed the service as healthy. Attention shifted to Azure AD sign-in logs.
 
@@ -132,7 +153,7 @@ At 09:30, the first investigative update was posted as an internal note. DNS and
 
 ---
 
-### Phase 5: Timeline Comment at 09:45 — Root Cause Identified
+### Phase 5: Timeline Comment at 09:45 - Root Cause Identified
 
 Azure AD sign-in logs showed a bulk conditional access policy change applied at 09:10 by an admin account. The policy was blocking all Exchange Online access for every user in the tenant. The infrastructure team began reverting the policy immediately.
 
@@ -142,7 +163,7 @@ Azure AD sign-in logs showed a bulk conditional access policy change applied at 
 
 ---
 
-### Phase 6: Timeline Comment at 10:00 — Service Restored
+### Phase 6: Timeline Comment at 10:00 - Service Restored
 
 At 10:00, the conditional access policy revert was confirmed complete and email service was restored. User confirmation was in progress.
 
@@ -152,7 +173,7 @@ At 10:00, the conditional access policy revert was confirmed complete and email 
 
 ---
 
-### Phase 7: Second Customer Communication — Service Restored
+### Phase 7: Second Customer Communication - Service Restored
 
 A second customer-visible update was posted confirming restoration and providing three clear self-service recovery steps for any user still experiencing issues. This prevents a secondary ticket wave.
 
@@ -183,7 +204,7 @@ The incident was transitioned to Completed. The resolution note was posted as a 
 
 ### Phase 9: Create the Post-Incident Review and Link to SUP1-26
 
-A PIR issue titled `PIR — Email Major Incident — April 2026` was raised and linked to SUP1-26 as a relates-to relationship. This ensures the PIR is discoverable from the closed incident and that the full story is told across both records.
+A PIR issue titled `PIR - Email Major Incident - April 2026` was raised and linked to SUP1-26 as a relates-to relationship. This ensures the PIR is discoverable from the closed incident and that the full story is told across both records.
 
 ![PIR Linked to Incident](screenshots/09_pir_linked_to_incident_annotated.png)
 
@@ -249,10 +270,10 @@ The final PIR section captured what went wrong and three concrete action items w
 
 | Metric | Result |
 |---|---|
-| Incident Raised | SUP1-26 — P1 Critical |
+| Incident Raised | SUP1-26 - P1 Critical |
 | First Customer Communication | Within 7 minutes of detection |
-| Root Cause Identified | 09:45 — 30 minutes into incident |
-| Service Restored | 10:00 — 45 minutes total downtime |
+| Root Cause Identified | 09:45 - 30 minutes into incident |
+| Service Restored | 10:00 - 45 minutes total downtime |
 | SLA: Time to First Response | Met |
 | SLA: Time to Resolution | Met |
 | PIR Completed | Within 24 hours |
@@ -304,5 +325,5 @@ Every organisation running Microsoft 365, Azure, or any cloud platform is one mi
 
 ---
 
-*Lab 15 of 15 — Jira Service Management Series*
-*IT Support Portfolio — Nnamso Mkpong*
+*Lab 15 of 15 - Jira Service Management Series*
+*IT Support Portfolio - Nnamso Mkpong*
