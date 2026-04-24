@@ -1,11 +1,18 @@
 # Simulate a Major Incident Response Using Jira
 
 **Platform:** Jira Service Management
+
 **Priority:** Critical
+
 **Lab Type:** Flagship Portfolio Piece
+
 **Author:** Nnamso Mkpong
+
 **Domain:** IT Service Management | Major Incident Coordination
+
 **Environment:** Jira Service Management - Cloud | Project: Support-1
+<img width="1150" height="329" alt="01 created new issue" src="https://github.com/user-attachments/assets/f2dc990a-2fb4-4c8b-81d7-47d507c2e389" />
+
 **Completed:** April 2026
 
 ---
@@ -109,7 +116,8 @@ The moment volume of calls confirmed a wide impact event, a new issue was create
 
 **Issue:** `SUP1-26 - MAJOR INCIDENT - Email Service Down - All 300 Users Affected - 09:15`
 
-![P1 Incident Created in Queue](screenshots/01_p1_incident_created_annotated.png)
+<img width="1150" height="329" alt="01 created new issue" src="https://github.com/user-attachments/assets/5027a7d6-dac4-4cb0-a9d2-ae8e5e5d32ec" />
+
 
 > **Annotation:** The incident row is highlighted red confirming scope and title. The Time to Resolution column is highlighted orange showing the SLA clock started immediately. The OPEN status badge is highlighted green confirming the ticket is active and visible to the team.
 
@@ -125,9 +133,8 @@ Within five minutes of raising the ticket, an internal note was added with a ful
 - Initial reports suggest DNS or MX record involvement
 - Response team assembled: Infrastructure Lead Maria, Microsoft Escalation via support ticket, Service Desk Coordinator Nnamso Mkpong
 
-![Initial Sitrep Internal Note](screenshots/02_initial_sitrep_internal_note_annotated.png)
+<img width="701" height="400" alt="02 Added internal Note" src="https://github.com/user-attachments/assets/09b89100-36db-4251-a63f-363767ca8bcc" />
 
-> **Annotation:** The full internal note block is highlighted orange. The Microsoft status check line is highlighted red as the first thing ruled out. The response team section is highlighted green confirming ownership is clear from minute one.
 
 ---
 
@@ -147,9 +154,9 @@ A customer-visible reply was posted immediately so that all 300 affected users k
 
 At 09:30, the first investigative update was posted as an internal note. DNS and MX records had been checked and were intact. The Exchange Online admin centre showed the service as healthy. Attention shifted to Azure AD sign-in logs.
 
-![Timeline Comment 09:30](screenshots/04_timeline_0930_dns_checked_annotated.png)
+<img width="697" height="255" alt="04 time line comment 1" src="https://github.com/user-attachments/assets/50b616a9-8096-461e-92b7-30289a78ee5d" />
 
-> **Annotation:** The internal note block is highlighted orange. The DNS checked and cleared line is highlighted red. The redirect to Azure AD investigation is highlighted blue as the next diagnostic direction.
+
 
 ---
 
@@ -157,9 +164,10 @@ At 09:30, the first investigative update was posted as an internal note. DNS and
 
 Azure AD sign-in logs showed a bulk conditional access policy change applied at 09:10 by an admin account. The policy was blocking all Exchange Online access for every user in the tenant. The infrastructure team began reverting the policy immediately.
 
-![Timeline Comment 09:45 Root Cause](screenshots/05_timeline_0945_root_cause_found_annotated.png)
+<img width="697" height="264" alt="05 time line comment 2" src="https://github.com/user-attachments/assets/a25ed4cc-dd6f-4bdb-b239-0a0fc82528ec" />
 
-> **Annotation:** The entire note block is highlighted red to signal critical finding. The specific policy change line at 09:10 is highlighted orange confirming the exact time of the causative event. The reverting now confirmation is highlighted green as the fix in progress.
+
+> **Annotation:** The entire note block is highlighted red to signal critical finding. The specific policy change line at 09:10 is highlighted orange confirming the exact time of the causative event. 
 
 ---
 
@@ -167,9 +175,9 @@ Azure AD sign-in logs showed a bulk conditional access policy change applied at 
 
 At 10:00, the conditional access policy revert was confirmed complete and email service was restored. User confirmation was in progress.
 
-![Timeline Comment 10:00 Restored](screenshots/06_timeline_1000_policy_reverted_annotated.png)
+<img width="701" height="254" alt="06 timeline comment 3" src="https://github.com/user-attachments/assets/1ebb6349-3975-4cb9-87ff-dfb713234412" />
 
-> **Annotation:** The service restored note is highlighted green. The 10:00 restoration confirmation is highlighted green. The user confirmation in progress line is highlighted blue as the final validation step before closure.
+
 
 ---
 
@@ -179,10 +187,10 @@ A second customer-visible update was posted confirming restoration and providing
 
 **Customer message:** Email service has been restored as of 10:00. If you are still experiencing issues: Restart Outlook, Log out and back into Microsoft 365. Please raise a new ticket if the issue persists.
 
-![Service Restored Customer Update](screenshots/07_service_restored_customer_update_annotated.png)
+<img width="691" height="332" alt="07 customer comment 2 " src="https://github.com/user-attachments/assets/75e9ac71-a444-42c9-bdd0-edad289c3df2" />
 
-> **Annotation:** The whole message is highlighted green confirming the positive resolution communication. The restoration confirmation line is highlighted green. The Restart Outlook and Log out steps are highlighted blue as the self-service recovery instructions that reduce secondary ticket volume.
 
+> **Annotation:** The whole message is highlighted green confirming the positive resolution communication.
 ---
 
 ### Phase 8: Resolve the Incident and Confirm SLA Met
@@ -196,9 +204,7 @@ The incident was transitioned to Completed. The resolution note was posted as a 
 - Service restored: 10:00
 - Total downtime: 45 minutes
 
-![Incident Resolved SLA Met](screenshots/08_incident_resolved_sla_met_annotated.png)
-
-> **Annotation:** The Completed badge is highlighted green. The SLA panel is highlighted blue as the compliance record. Time to First Response met is highlighted green. Time to Resolution met is highlighted green. The root cause closure note at the bottom is highlighted red as the formal record for audit purposes.
+<img width="1126" height="481" alt="08 resolved" src="https://github.com/user-attachments/assets/8d91bda5-0e27-4b8e-b21e-9766c01aea21" />
 
 ---
 
@@ -206,9 +212,10 @@ The incident was transitioned to Completed. The resolution note was posted as a 
 
 A PIR issue titled `PIR - Email Major Incident - April 2026` was raised and linked to SUP1-26 as a relates-to relationship. This ensures the PIR is discoverable from the closed incident and that the full story is told across both records.
 
-![PIR Linked to Incident](screenshots/09_pir_linked_to_incident_annotated.png)
+<img width="703" height="461" alt="09 both issues linked" src="https://github.com/user-attachments/assets/1ffe7135-5b5d-4037-bfb4-418cda4a59d2" />
 
-> **Annotation:** The PIR title is highlighted blue confirming the record type. The Linked work items section is highlighted green. The SUP1-26 COMPLETED row is highlighted red confirming the relationship between the closed incident and the open PIR.
+
+> **Annotation:** The PIR title is highlighted blue confirming the record type. The Linked work items section is highlighted green. 
 
 ---
 
@@ -225,9 +232,8 @@ The PIR received the full timestamped timeline of the incident as an internal no
 | 09:58 | Policy reverted |
 | 10:00 | Service restored |
 
-![PIR Full Timeline](screenshots/10_pir_full_timeline_annotated.png)
+<img width="696" height="342" alt="10 Time of events comments " src="https://github.com/user-attachments/assets/cf277f35-3dfb-45aa-a008-8dd3330fbc41" />
 
-> **Annotation:** The whole timeline block is highlighted blue. The 09:10 causative event is highlighted orange. The 09:15 incident detection is highlighted red. The 09:58 and 10:00 recovery events are highlighted green.
 
 ---
 
@@ -237,9 +243,10 @@ The formal root cause analysis statement was added as an internal note in the PI
 
 **Root Cause Analysis:** An administrative change to conditional access policies unintentionally blocked Exchange Online access globally.
 
-![PIR Root Cause Analysis](screenshots/11_pir_root_cause_analysis_annotated.png)
+<img width="696" height="251" alt="11 root cause analysis comment" src="https://github.com/user-attachments/assets/a901feda-33a4-4ea7-b604-229c379454ef" />
 
-> **Annotation:** The RCA block is highlighted red to signal the severity of the finding. The root cause statement itself is highlighted orange confirming the single cause for all 300 user impact.
+
+> **Annotation:** The RCA block is highlighted red to signal the severity of the finding. 
 
 ---
 
@@ -260,9 +267,7 @@ The final PIR section captured what went wrong and three concrete action items w
 | Enable alerting for authentication failures | Infra Team | 5 May |
 | Introduce staged rollout for policy changes | Cloud Team | 12 May |
 
-![PIR Improvements and Action Items](screenshots/12_pir_improvements_action_items_annotated.png)
-
-> **Annotation:** Action items block highlighted orange. Approval workflow item highlighted red as highest priority. Alerting item highlighted blue. Staged rollout item highlighted green. What went well and could be improved block highlighted orange. Root cause repeat block highlighted blue confirming consistency of the RCA statement across the PIR.
+<img width="705" height="477" alt="12 What could be improved, and Action items with owners and due dates" src="https://github.com/user-attachments/assets/314ddd91-c51e-49d9-af57-7ec695b26f8d" />
 
 ---
 
