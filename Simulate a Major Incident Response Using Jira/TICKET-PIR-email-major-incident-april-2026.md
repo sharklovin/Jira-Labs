@@ -1,10 +1,10 @@
-# TICKET NOTE — PIR — Email Major Incident — April 2026
+# TICKET NOTE - PIR - Email Major Incident - April 2026
 ## Post-Incident Review | Linked to SUP1-26
 
 ---
 
-**Ticket Title:** PIR — Email Major Incident — April 2026
-**Linked Incident:** SUP1-26 — MAJOR INCIDENT — Email Service Down — All 300 Users Affected
+**Ticket Title:** PIR - Email Major Incident - April 2026
+**Linked Incident:** SUP1-26 - MAJOR INCIDENT - Email Service Down - All 300 Users Affected
 **Type:** Post-Incident Review
 **Status:** Completed
 **PIR Owner:** Nnamso Mkpong
@@ -25,20 +25,19 @@ On 23 April 2026 at 09:15, the company email service went down for all 300 users
 | Time | Event | Category |
 |---|---|---|
 | 09:10 | Conditional access policy applied by admin account without approval or staged rollout | Change |
-| 09:15 | First user calls received — email service confirmed down for all users | Detection |
-| 09:15 | SUP1-26 raised as P1 Critical — SLA clock started | Response |
-| 09:20 | Initial sitrep posted as internal note — response team assembled | Communication |
-| 09:22 | First customer communication sent — investigating, update in 30 minutes | Communication |
-| 09:30 | DNS and MX records ruled out — attention moved to Azure AD | Investigation |
-| 09:45 | Azure AD sign-in logs reviewed — conditional access policy change at 09:10 confirmed | Root Cause |
+| 09:15 | First user calls received - email service confirmed down for all users | Detection |
+| 09:15 | SUP1-26 raised as P1 Critical - SLA clock started | Response |
+| 09:20 | Initial sitrep posted as internal note - response team assembled | Communication |
+| 09:22 | First customer communication sent - investigating, update in 30 minutes | Communication |
+| 09:30 | DNS and MX records ruled out - attention moved to Azure AD | Investigation |
+| 09:45 | Azure AD sign-in logs reviewed - conditional access policy change at 09:10 confirmed | Root Cause |
 | 09:45 | Infrastructure Lead Maria begins policy revert | Remediation |
 | 09:58 | Policy revert confirmed complete | Remediation |
 | 10:00 | Email service confirmed restored | Resolution |
-| 10:05 | Second customer communication sent — service restored, self-service steps provided | Communication |
-| 10:15 | Incident closed — resolution documented, SLAs confirmed met | Closure |
+| 10:05 | Second customer communication sent - service restored, self-service steps provided | Communication |
+| 10:15 | Incident closed - resolution documented, SLAs confirmed met | Closure |
 | 10:30 | PIR raised and linked to SUP1-26 | Review |
 
-**Screenshot reference:** 10_pir_full_timeline.png
 
 ---
 
@@ -54,10 +53,10 @@ An administrative change to conditional access policies was applied at 09:10 wit
 |---|---|
 | No approval workflow | The policy change was applied directly by an admin account without peer review or approval gate |
 | No staged rollout | The policy was applied to all users simultaneously rather than to a pilot group first |
-| No real-time alerting | No automated alert fired when authentication began failing at scale at 09:10 — detection relied on user calls at 09:15 |
+| No real-time alerting | No automated alert fired when authentication began failing at scale at 09:10 - detection relied on user calls at 09:15 |
 | No change freeze period | The change was applied during core business hours rather than a scheduled maintenance window |
 
-**Screenshot reference:** 11_pir_root_cause_analysis.png
+
 
 ---
 
@@ -67,7 +66,7 @@ An administrative change to conditional access policies was applied at 09:10 wit
 |---|---|
 | Speed of incident detection | First call received within 5 minutes of the causative change |
 | Response team assembly | Infrastructure Lead contacted and briefed within 10 minutes |
-| Customer communication | Two timed updates sent at the right points — no SLA breach on first response |
+| Customer communication | Two timed updates sent at the right points - no SLA breach on first response |
 | Diagnostic methodology | Systematic elimination of DNS, MX, and service health before identifying identity layer fault |
 | Root cause identification | Azure AD logs correctly identified within 30 minutes of incident opening |
 | Service restoration | Policy revert completed within 48 minutes of incident opening |
@@ -84,7 +83,7 @@ An administrative change to conditional access policies was applied at 09:10 wit
 | Real-time alerting | 5-minute gap between policy applied and detection via user calls | Impact window could be longer if call volume was lower |
 | Change management | No approval required for conditional access changes | Single admin can cause tenant-wide outage unilaterally |
 
-**Screenshot reference:** 12_pir_improvements_action_items.png
+
 
 ---
 
@@ -119,7 +118,7 @@ Once all action items are complete, the following controls will be in place to p
 | Root cause analysis | Complete |
 | What went well | Complete |
 | What could be improved | Complete |
-| Action items with owners and due dates | Complete — 5 items raised |
+| Action items with owners and due dates | Complete - 5 items raised |
 | PIR linked to incident SUP1-26 | Confirmed |
 
 **PIR Owner:** Nnamso Mkpong
@@ -128,6 +127,6 @@ Once all action items are complete, the following controls will be in place to p
 
 ---
 
-*Post-Incident Review — SUP1-26*
-*Major Incident Coordination — Jira Service Management Lab 15*
-*IT Support Portfolio — Nnamso Mkpong*
+*Post-Incident Review - SUP1-26*
+*Major Incident Coordination - Jira Service Management*
+*IT Support Portfolio - Nnamso Mkpong*
