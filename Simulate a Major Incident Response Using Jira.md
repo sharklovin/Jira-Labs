@@ -142,9 +142,10 @@ A customer-visible reply was posted immediately so that all 300 affected users k
 
 **Customer message:** We are aware of an issue affecting email service for all users. Our team is investigating urgently. Next update will be provided within 30 minutes.
 
-![First Customer Communication](screenshots/03_first_customer_communication_annotated.png)
+<img width="700" height="228" alt="03 FIRST comment to customer" src="https://github.com/user-attachments/assets/f817969b-5f3f-4663-8c96-3c9b2d0e0030" />
 
-> **Annotation:** The customer-visible reply is highlighted blue. The 30-minute commitment is highlighted red as the SLA-backed promise that the coordinator is accountable for delivering.
+
+> **Annotation:** The customer-visible reply is highlighted blue.
 
 ---
 
