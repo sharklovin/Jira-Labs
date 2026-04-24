@@ -1,4 +1,4 @@
-## JIRA - Simulate a Major Incident Response Using Jira
+Simulate a Major Incident Response Using Jira
 
 **Platform:** Jira Service Management
 **Priority:** Critical
