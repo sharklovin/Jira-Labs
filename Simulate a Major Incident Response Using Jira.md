@@ -11,7 +11,7 @@
 **Domain:** IT Service Management | Major Incident Coordination
 
 **Environment:** Jira Service Management - Cloud | Project: Support-1
-<img width="1150" height="329" alt="01 created new issue" src="https://github.com/user-attachments/assets/f2dc990a-2fb4-4c8b-81d7-47d507c2e389" />
+
 
 **Completed:** April 2026
 
@@ -118,8 +118,6 @@ The moment volume of calls confirmed a wide impact event, a new issue was create
 
 <img width="1150" height="329" alt="01 created new issue" src="https://github.com/user-attachments/assets/5027a7d6-dac4-4cb0-a9d2-ae8e5e5d32ec" />
 
-
-> **Annotation:** The incident row is highlighted red confirming scope and title. The Time to Resolution column is highlighted orange showing the SLA clock started immediately. The OPEN status badge is highlighted green confirming the ticket is active and visible to the team.
 
 ---
 
